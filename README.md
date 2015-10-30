@@ -7,6 +7,10 @@ Crude, ugly, functional.  I'm not a coder, nor a web designer.  This is just a s
  
 Allows searching for a movie based on title and year, using the omdbapi API to find, displays the info, and uses the CP API to add the movie to wanted list.
 
+**How do I use this?**
+
+It's not difficult.  Just clone the repo to a directory, setup a basic web server with PHP (I prefer nginx and php-fpm), and off you go.  For some security, please use basic auth with your web server.
+
 **How does this work?**
 
 First, we search for a movie..  
