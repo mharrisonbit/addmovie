@@ -26,4 +26,6 @@ Congrats, you've added the movie!  Add another?
 ![add](/screenshots/add.png?raw=true "Add the Movie")
 
 
-Use case: Maybe you share your Plex library with others outside of your household, and they'd like to request a specific movie.  Maybe they do this too often, and you'd rather let them do this without having to give direct access to CouchPotato.  Put this behind Nginx or Apache with basic auth, and let them search and add a movie themselves!
+**Use case**
+
+Maybe you share your Plex library with others outside of your household, and they'd like to request a specific movie.  Maybe they do this too often, and you'd rather let them do this without having to give direct access to CouchPotato.  Put this behind Nginx or Apache with basic auth, and let them search and add a movie themselves!
