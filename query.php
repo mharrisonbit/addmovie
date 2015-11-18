@@ -1,3 +1,4 @@
+<link href="css/css/bootstrap.min.css" rel="stylesheet">
 <?php
 require_once('config.php');
 
@@ -11,7 +12,13 @@ $imdbid = $response['imdbID'];
 ?>
 
 <html>
-  <table border="1">
+<form action="addmovie.php" method="post">
+  <div class="container col-md-4 col-md-offset-4">
+    <button name="sendtocp" value="<?php echo $imdbid ?>" class="btn btn-primary" style="margin-top: 5px; padding: 20px 5px; width: 100%">Add Movie!</button>
+  </div>
+</form>
+  <div class="container col-md-4 col-md-offset-4" style="padding: 10px 10px">
+  <table class="table table-striped">
     <tr>
      <th>Poster</th>
     </tr>
@@ -73,10 +80,5 @@ $imdbid = $response['imdbID'];
       <td align="center"><?php echo $response['imdbID']; ?></td>
     </tr>
   </table>
-    
-  <br /><br />
-    
-  <form action="addmovie.php" method="post">
-    <button name="sendtocp" value="<?php echo $imdbid ?>">Add Movie!</button>
-  </form>
+</div>
 </html>
