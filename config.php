@@ -1,3 +1,4 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <?php
 $couchpotato_url = 'URL_TO_CP_GOES_HERE';
 $couchpotato_api = 'CP_API_GOES_HERE';
