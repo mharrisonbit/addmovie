@@ -20,5 +20,5 @@ if ($addresponse["success"] == "1") {
 </div>
 <br /><br />
 <div class="container col-md-4 col-md-offset-4">
-<button href="/" class="btn btn-primary" style="margin-top: 10px; padding: 20px 5px; width: 100%">Start Over</button>
+<a href="/" class="btn btn-primary" style="margin-top: 10px; padding: 20px 5px; width: 100%">Start Over</a>
 </div>
