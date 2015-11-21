@@ -1,7 +1,9 @@
 <link href="css/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/css/override.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
+  <!-- this will allow the page to get bigger on a mobile device -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
 require_once('config.php');
 
@@ -16,15 +18,15 @@ $imdbid = $response['imdbID'];
 
 <html>
 <form action="addmovie.php" method="post">
-  <div class="container col-md-4 col-md-offset-4 btn-padding-remove">
+  <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 col-xs-12 btn-padding-remove">
     <button name="sendtocp" value="<?php echo $imdbid ?>" class="btn btn-primary" style="margin-top: 5px; padding: 20px 5px; width: 100%">Add Movie!</button>
   </div>
 </form>
   <body>
-    <div class="container col-md-4 col-md-offset-4 well" style="padding: 10px 10px">
+    <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 col-xs-12 well" style="padding: 10px 10px">
        <div class="well">Poster <hr>
          <div class="text-center">
-           <img src="<?php echo $response['Poster']; ?>" >
+           <img src="<?php echo $response['Poster']; ?>" class="img-responsive">
          </div>
        </div>
        
