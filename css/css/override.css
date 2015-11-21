@@ -1,0 +1,12 @@
+hr{
+  border-top-color: #000;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-padding-remove{
+  padding-left: 0px;
+  padding-right: 0px;
+}
